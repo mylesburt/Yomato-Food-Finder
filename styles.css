@@ -1,0 +1,34 @@
+
+
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+header, nav {
+    background:orange;
+    color: #FEFCFB;
+}
+
+option {
+  background-color: orange; 
+  width: 'fit';
+  color: #000; ;
+}
+
+.mappanel  {
+justify-content: center;
+}
+
+#resto-photos {
+  float: left;
+  width: 30%;
+   
+}
+
+.googlephotos:hover img {
+  filter: grayscale(100%);
+}
+  

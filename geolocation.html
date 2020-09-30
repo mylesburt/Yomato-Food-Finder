@@ -1,0 +1,144 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="Food Review" />
+	<meta name="keywords" content="food review">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+	<link href="styles.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+	</script>
+
+	<!-- CDN link used below is compatible with this example -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
+	</script>
+
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+
+
+</head>
+
+
+<body>
+
+
+	<header>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">Sub Hub</a>
+				<div class="collapse navbar-collapse" id="Navbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="geolocation.html">
+								Homepage</a></li>
+						<li class="nav-item"><a class="nav-link" href="myfave.html">
+								Search History</a>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="ourteam.html">
+								Our Team</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Navbar -->
+		Z
+
+	</header>
+
+	<main>
+
+
+		<div class="container py-5 mt-5">
+
+
+			<div class="text-center">
+				<img src="subhub.png" width="200px" height="200px">
+				<p>Your Latitude: <span id="lat_id"></span></p>
+				<p>Your Longitude: <span id="lng_id"></span></p>
+			</div>
+
+
+			<div class="d-flex align-items-center justify-content-center flex-column">
+				<div class="row">
+					<div class="col-sm p-3">
+
+						<select id="selectResto" class="selectpicker" data-size="5" data-style="btn-warning"
+							data-width="fit" title="Pick your fav">
+							<option value="fast food">Fast Food </option>
+							<option value="japanese restaurant">Japanese Food </option>
+							<option value="chinese restaurant">Chinese </option>
+							<option value="cafe">Cafe</option>
+							<option value="pub">Pub</option>
+						</select>
+
+
+					</div>
+
+					<div class="col-sm p-3">
+
+						<select id="selectRadius" class="selectpicker" data-style="btn-warning" data-width="fit"
+							title="How Far?">
+							<option value="100">100 M </option>
+							<option value="200">200 M </option>
+							<option value="500">500 M </option>
+							<option value="1000">1 KM </option>
+							<option value="5000">5 KM </option>
+							<option value="10000">10 KM </option>
+						</select>
+
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-3 ml-3">
+						<input class="btn bg-warning mt-3" type="button" value=" search " onclick="add_search_term()">
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</main>
+
+	<br><br><br><br><br>
+
+	<footer class="page-footer font-small pt-5 text-center">
+		<p>Made in Sydney <img src="australian-kangaroo.png" width="30px"></p>
+	</footer>
+
+
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+	<script type="text/javascript"
+		src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script src="geolocation.js"></script>
+
+
+
+</body>
+
+</html>
