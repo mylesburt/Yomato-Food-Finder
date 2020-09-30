@@ -20,7 +20,7 @@ show_location_details = function (response, status) {
 	$("#resto-photos").html("");
 
 
-	for (var idx = 0; idx <= 2; idx++) {
+	for (var idx = 0; idx <= 1; idx++) {
 		var photo_item = photo_array[idx];
 		var image_link = photo_item.getUrl({ maxWidth: 300, maxHeight: 300 });
 		console.log(image_link);
