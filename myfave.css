@@ -5,11 +5,11 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: url("arches-1920x1080.png");
+    background-size: cover;
   }
 
 header, nav {
-    background:orange;
+    background:black;
     color: #FEFCFB;
 }
-
-
