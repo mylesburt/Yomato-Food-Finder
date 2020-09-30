@@ -5,11 +5,17 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: url("arches-1920x1080.png");
+    background-size: cover;
   }
 
 header, nav {
-    background:orange;
+    background:black;
     color: #FEFCFB;
+}
+
+#logo {
+  margin-bottom: 16px;
 }
 
 option {
@@ -32,3 +38,25 @@ justify-content: center;
   filter: grayscale(100%);
 }
   
+#selectFoodBtn button {
+  width: 130px;
+  text-align: center;
+  background-color: #E55812;
+  color: white;
+}
+
+#foodspiration {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.randomFoodsBtn {
+  width: 150px;
+  background-color: #54428E;
+  color: white;
+}
+
+.btnFoodM {
+  margin-bottom: 10px;
+}
