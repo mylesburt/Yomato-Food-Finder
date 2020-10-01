@@ -27,12 +27,25 @@
 * [Favic-O-Matic] (https://favicomatic.com/) - The favicon generator both .ico, PNG and the HTML code needed.
 
 ## API
-* Google Maps API
-* Google Places API
-* Zomato API
+* [Google Maps API] (https://developers.google.com/maps/documentation) - An interactive map to our website
+* [Google Places API] (https://developers.google.com/places/web-service/overview) - a simple way to add Google's rich, local information to your maps. 
+* [Zomato API] (https://developers.zomato.com/) - GET /cuisines / Get list of all cuisines in a city
 
 ## Screenshot
 
+### Homepage (Geolocation)
+![Screen Shot 2020-10-01 at 10 16 28](https://user-images.githubusercontent.com/7066137/94756573-395c3f00-03db-11eb-993a-8e07a4983ca9.png)
+
+### Search Result (Show Map)
+![SubHub-SearchResult](https://user-images.githubusercontent.com/7066137/94756605-4da03c00-03db-11eb-845f-0cf45f315f2e.png)
+
+
+### Search Result (List of Recent Search)
+![Screen Shot 2020-10-01 at 10 16 39](https://user-images.githubusercontent.com/7066137/94756545-2a758c80-03db-11eb-824e-e8fc9ec8f0ed.png)
+
+
 
 ### Link to the App
-<a href="">The URLs of the deployed applications in GitHub</a><hr>
+<a href="https://annisapf.github.io/Yomato-Food-Finder/">The URLs of the deployed applications in GitHub</a>
+
+<a href="https://subhub.site/">Sub Hub Site</a>
