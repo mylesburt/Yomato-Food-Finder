@@ -60,4 +60,10 @@ justify-content: center;
   margin-bottom: 10px;
 }
 
+@media (max-width: 576px) { 
+  .centreBtns {
+    text-align: center;
+  }
+
+ }
 
