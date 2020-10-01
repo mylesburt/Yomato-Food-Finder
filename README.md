@@ -25,7 +25,6 @@ display_page.html  | Search Result                |
 myfave.html        | Search History               |
 ourteam.html       | Our Team                     |
 styles.css         | Main stylesheet              |
-myfave.css         | Search History Stylesheet    |
 geolocation.js     | Geolocation Functionality    |
 result_page.js     | Search Result Functionality  |
 myfave.js          | Search History Functionality |
