@@ -17,6 +17,20 @@
 * WHEN I open the resto dashboard
 * THEN I am presented with the last searched resto
 
+## Contents
+Files Name         | Description                  |
+-------------------|------------------------------|
+index.html         | Homepage                     |
+display_page.html  | Search Result                |
+myfave.html        | Search History               |
+ourteam.html       | Our Team                     |
+styles.css         | Main stylesheet              |
+myfave.css         | Search History Stylesheet    |
+geolocation.js     | Geolocation Functionality    |
+result_page.js     | Search Result Functionality  |
+myfave.js          | Search History Functionality |
+images folder      | All images file              |
+
 
 ## Build With
 * [VScode] (http://code.visualstudio.com/) - The editor of choice.
